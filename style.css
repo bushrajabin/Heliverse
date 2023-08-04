@@ -75,26 +75,7 @@ input {
 }
 
 
-.team1,
-.team2,
-.team3,
-.team4,
-.team5,
-.team6,
-.team7,
-.team8,
-.team9,
-.team10,
-.team11,
-.team12,
-.team13,
-.team14,
-.team15,
-.team16,
-.team17,
-.team18,
-.team19,
-.team20 {
+.page-forTeam {
     background-color: white;
     padding: 20px;
     margin: 5px;
@@ -103,104 +84,27 @@ input {
 }
 
 
-.team1:hover,
-.team2:hover,
-.team3:hover,
-.team4:hover,
-.team5:hover,
-.team6:hover,
-.team7:hover,
-.team8:hover,
-.team9:hover,
-.team10:hover,
-.team11:hover,
-.team12:hover,
-.team13:hover,
-.team13:hover,
-.team14:hover,
-.team15:hover,
-.team16:hover,
-.team17:hover,
-.team18:hover,
-.team19:hover,
-.team20:hover {
+
+.page-forTeam:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 
-.image1>img,
-.image2>img,
-.image3>img,
-.image4>img,
-.image5>img,
-.image6>img,
-.image7>img,
-.image8>img,
-.image9>img,
-.image10>img,
-.image11>img,
-.image12>img,
-.image13>img,
-.image14>img,
-.image15>img,
-.image16>img,
-.image17>img,
-.image18>img,
-.image19>img,
-.image20>img {
-    /* background-color: brown; */
+.image-ofTeam>img
+ {
     border-radius: 30px;
     size: 30px;
     margin-left: 60px;
 }
 
-.about1>h3,
-.about2>h3,
-.about3>h3,
-.about4>h3,
-.about5>h3,
-.about6>h3,
-.about7>h3,
-.about8>h3,
-.about9>h3,
-.about10>h3,
-.about11>h3,
-.about12>h3,
-.about13>h3,
-.about15>h3,
-.about14>h3,
-.about16>h3,
-.about17>h3,
-.about18>h3,
-.about19>h3,
-.about20>h3 {
+.about-ofTeam>h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     letter-spacing: 2px;
     padding: 10px;
 }
 
-.about1>h2,
-.about2>h2,
-.about3>h2,
-.about4>h2,
-.about5>h2,
-.about6>h2,
-.about7>h2,
-.about8>h2,
-.about9>h2,
-.about10>h2,
-.about11>h2,
-.about12>h2,
-.about13>h2,
-.about14>h2,
-.about15>h2,
-.about16>h2,
-.about17>h2,
-.about18>h2,
-.about18>h2,
-.about19>h2,
-.about20>h2 {
+.about-ofTeam>h2 {
     font-size: 20px;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
