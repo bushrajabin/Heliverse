@@ -177,7 +177,7 @@ input {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     letter-spacing: 2px;
-    /* text-align: center; */
+    padding: 10px;
 }
 
 .about1>h2,
@@ -202,20 +202,86 @@ input {
 .about19>h2,
 .about20>h2 {
     font-size: 20px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-button {
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#btn10,
+#btn11,
+#btn12,
+#btn13,
+#btn14,
+#btn15,
+#btn16,
+#btn17,
+#btn18,
+#btn19,
+#btn20 {
     background-color: #bb86fc;
     padding: 10px;
     border: none;
     color: white;
     letter-spacing: 2px;
     border-radius: 10px;
+    width: 100%;
 }
 
-button:hover{
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover,
+#btn7:hover,
+#btn8:hover,
+#btn9:hover,
+#btn10:hover,
+#btn11:hover,
+#btn12:hover,
+#btn13:hover,
+#btn14:hover,
+#btn15:hover,
+#btn16:hover,
+#btn17:hover,
+#btn18:hover,
+#btn19:hover,
+#btn20:hover {
     background-color: pink;
     color: black;
+}
+
+
+
+.pageNumber{
+    background-color: #bb86fc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    position: fixed;
+    top: 73%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+
+.buttons-forPage{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: inline-flex;
 }
